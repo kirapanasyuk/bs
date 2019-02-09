@@ -1,0 +1,49 @@
+#wrapper {
+	min-width: 320px;
+	max-width: 960px;
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+	border: 1px solid #7ccae9;
+	border-top: 0;
+}
+
+#subfooter {
+	height: 50px;
+}
+
+#footer {
+	min-width: 320px;
+	max-width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: -50px;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	background-color: #f9f9f9;
+}
+
+#header {
+	height: 60px;
+	background-color: #68c2e5;
+}
+
+#logo {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #7ccae9;
+	background-image: url('/images/logo.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 32px;
+
+}
+
+#logo:hover {
+	background-color: #92d3ed;
+}
